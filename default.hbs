@@ -35,6 +35,10 @@
                     {{#if @blog.twitter}}<a href="{{twitter_url @blog.twitter}}" target="_blank" rel="noopener">Twitter</a>{{/if}}
                     <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
                 </nav>
+
+                {{#if @labs.subscribers}}
+                    <section class="copyright"><a class="subscribe-button" href="#subscribe">Subscribe</a></section>
+                {{/if}}
             </div>
         </footer>
 

@@ -367,7 +367,9 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
         padding-left: 4vw;
     }
     .site-nav-right {
-        display: none;
+       /* display: none; */
+        margin-left: 0;
+        padding-right: 4vw;
     }
 }
 
@@ -2228,6 +2230,7 @@ Usage (In Ghost editor):
 
 .site-footer-nav {
     display: flex;
+    padding-bottom: 8px;
 }
 
 .site-footer-nav a {
